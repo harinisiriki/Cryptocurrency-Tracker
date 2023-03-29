@@ -1,0 +1,55 @@
+.sub-head-container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+
+  background-color: transparent;
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.currency-name {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 12px;
+  margin: 0;
+}
+
+.currency-sub-container {
+  width: 128px;
+  display: flex;
+  align-items: center;
+}
+
+.currency-usd {
+  text-align: right;
+  flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 23px;
+    width: 23px;
+  }
+  .sub-head-container {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .currency-name {
+    font-size: 15px;
+  }
+  .currency-sub-container {
+    width: 145px;
+  }
+}
